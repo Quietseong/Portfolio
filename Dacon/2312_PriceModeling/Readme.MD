@@ -4,7 +4,9 @@
 
   <strong>방법</strong>: RFM<br>
 
-  <light><strong>링크</strong>: <a href="https://public.tableau.com/shared/BT736BRR9?:display_count=n&:origin=viz_share_link">태블로</a></light>
+  <light><strong>자료</strong>: 
+1. <a href="https://github.com/Quietseong/Portfolio/blob/main/Dacon/2312_PriceModeling/Capstone_analysis.ipynb">Full code</a>
+2. <a href="https://public.tableau.com/shared/BT736BRR9?:display_count=n&:origin=viz_share_link">시각화(Tableau)</a></light>
 
 </span>
 
