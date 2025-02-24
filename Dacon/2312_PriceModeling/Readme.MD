@@ -1,4 +1,4 @@
-<p style="font-size: 16px; margin-bottom: 8px;"><strong>제목: 클러스터링 요약</strong></p>
+<p style="font-size: 20px; margin-bottom: 8px;"><strong>제목: 클러스터링 요약</strong></p>
 
 <span style="display: block; margin-bottom: 4px;">
 
