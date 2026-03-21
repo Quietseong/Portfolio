@@ -25,7 +25,7 @@
 
 ## 자료
 
-- [**분석 코드** (Jupyter Notebook)](https://github.com/Quietseong/Portfolio/blob/main/Dacon/2312_PriceModeling/Capstone_analysis.ipynb)
+- [**분석 코드** (Jupyter Notebook)](https://github.com/Quietseong/Portfolio/blob/main/analysis/2312_PriceModeling/Capstone_analysis.ipynb)
 - [**인터랙티브 대시보드** (Tableau)](https://quietseong.github.io/Portfolio/price-modeling.html)
 
 ## Tableau Dashboard
