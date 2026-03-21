@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revenue Maximizing Price Point - Tableau Dashboard</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      width: 100%;
+      background-color: #fff;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 16px 24px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 1.5rem;
+      color: #333;
+    }
+    header p {
+      font-size: 0.875rem;
+      color: #666;
+      margin-top: 4px;
+    }
+    header a {
+      color: #0969da;
+      text-decoration: none;
+    }
+    header a:hover {
+      text-decoration: underline;
+    }
+    .tableau-container {
+      width: 100%;
+      max-width: 1340px;
+      margin: 24px auto;
+      padding: 0 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Revenue Maximizing Price Point</h1>
+    <p>RFM Clustering &amp; ML 기반 최적 가격 모델링 |
+      <a href="https://github.com/Quietseong/Portfolio/tree/main/Dacon/2312_PriceModeling">GitHub Repository</a>
+    </p>
+  </header>
+
+  <div class="tableau-container">
+    <div class='tableauPlaceholder' id='viz1774083681525' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='Revenue_Maximizing_Price_point'
+               src='https://public.tableau.com/static/images/RF/RFMwithML/Revenue_Maximizing_Price_point/1_rss.png'
+               style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='RFMwithML/Revenue_Maximizing_Price_point' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/RF/RFMwithML/Revenue_Maximizing_Price_point/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='ko-KR' />
+      </object>
+    </div>
+  </div>
+
+  <script type='text/javascript'>
+    var divElement = document.getElementById('viz1774083681525');
+    var vizElement = divElement.getElementsByTagName('object')[0];
+    if (divElement.offsetWidth > 800) {
+      vizElement.style.width = '1300px';
+      vizElement.style.height = '927px';
+    } else if (divElement.offsetWidth > 500) {
+      vizElement.style.width = '1300px';
+      vizElement.style.height = '927px';
+    } else {
+      vizElement.style.width = '100%';
+      vizElement.style.height = '1677px';
+    }
+    var scriptElement = document.createElement('script');
+    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    vizElement.parentNode.insertBefore(scriptElement, vizElement);
+  </script>
+</body>
+</html>
